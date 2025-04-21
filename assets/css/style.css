@@ -1523,7 +1523,26 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
-
+  .software-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .software-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .software-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  
 
   /**
    * #PORTFOLIO, BLOG
