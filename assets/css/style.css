@@ -182,6 +182,11 @@ article {
   margin: 16px 0;
 }
 
+.myseparator {
+  height: 20px;
+  background: transparent;
+}
+
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -765,6 +770,7 @@ main {
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
+
 
 
 /**
