@@ -881,30 +881,39 @@
         <a class="project-text"></a>
         <ul class="skills-list content-card">
             <img src="./assets/images/automation.png" alt="automation flow chart" loading="lazy">
-          <p class="project-text">
-            During my internship at Microsoft, I built three scripts to 
-            help automate the maintenance of Azure infrastructure. 
+          <p>
+            During my internship at Microsoft, I was responsible for the maintenance of 
+            Azure infrastructure. On-call engineers were faced with a time-consuming process 
+            whenver they want to fix a problem in the infrastructure. 
+            The current process required them to manually adjust 
+            network settings or interact with nodes.
+            This method was not only inefficient but also risky, as even a small mistake 
+            could result in serious incidents.
           </p>
-          <p class="project-text">
-            Before, when problems happened, on-call engineers had to manually change 
-            network settings or interact the nodes with codebase iteration.
-            This process was tedious and not safe, 
-            a small oversight could lead to serious incidents.
+          <p>
+            My task was to automate and streamline these maintenance tasks, 
+            ensuring that engineers could make the necessary adjustments more safely and 
+            efficiently.
           </p>
-          <p class="project-text">
-            The scripts I made allow engineers to perform these actions with just 
-            few inputs and one click. 
-            The scripts also automatically send the changes to an internal review system, 
-            where a manager must approve them before they take effect. 
-            This made the process much faster and safer.
+          <p>
+            I wrote scripts to automate 3 key maintenance tasks. 
+            These scripts allowed engineers to perform complex actions with minimal inputs 
+            and a single click. For example, if an engineer wanted to delete three nodes 
+            across different clusters, they no longer had to write a single line of code. 
+            Instead, they could simply input the names of the nodes, 
+            and press "run". My script would automatically search, locate verify and delete them.
+            Additionally, I integrated an automatic review system, 
+            where any changes made by the scripts were sent for approval by a manager before 
+            being implemented. I also took the initiative to thoroughly document the entire 
+            process, identify potential issues, and created 5 troubleshooting guides.
           </p>
-          <p class="project-text">
-            Through this project, I developed the ability to quickly 
-            understanding a large codebase and 
-            successfully integrated my scripts into the existing system.
-            Throughout and following the development process, 
-            I documented every step and highlighted potential issues, 
-            creating five troubleshooting guides to aid future maintenance and onboarding.
+          <p></p>
+          <p>
+            As a result, the new automation system significantly sped up the 
+            maintenance process while reducing the risk of human error.
+             Furthermore, my documentation and troubleshooting guides enabled smoother 
+             future onboarding and maintenance for other team members, contributing 
+             to a more reliable and efficient workflow.
           </p>
         </ul>
       </article>
@@ -915,24 +924,26 @@
           <h2 class="h2 article-title">Sed</h2>
         </header>
         <a href="https://github.com/Eloisa12/sed.git" class="project-text"><u>Source Code</u></a>
-        <ul class="skills-list content-card">
-            
-          <p class="project-text">
-            This script is written in Python.
-            It emulates the functionality of the Unix sed command: find and change text in a file or text.
-            (Imagine a file with 1 million words, and you want to replace all word "cat" to word "dog"
-            instead of openning up the file and manually change every words, 
-            sed can do it with one click.)
+        <div class="skills-list content-card">
+          <p>
+          I identified a common pain point where users had to manually 
+          search and replace text that occurs many times in a file, 
+          such as updating an object name.
           </p>
-          <p class="project-text">
-            This project demonstrates my ability to build non-programmer friendly tools in python
-            that streamline repetitive tasks and improve workflow efficiency.
+          <p>
+            My task was to build a Python script that would automate this text replacement process, emulating the functionality of the Unix sed command. The goal was to create a tool that would be user-friendly, even for those without programming experience, and could streamline repetitive tasks like this.
           </p>
-          <p class="project-text">
-            I also applied test-driven development practices to ensure the tools were reliable
-            and easy to maintain. As a result, my tests cover 96% of the code, 
-            meaning that 96% of the code has been tested and works as expected. </p>
-        </ul>
+          <p>
+          I wrote a Python script that allows users to replace words or phrases 
+          in large text files with a single click. For example, if a user wanted 
+          to replace all instances of "cat" with "dog" in a file with millions of words, 
+          they could do so quickly without opening the file manually. 
+          I applied test-driven development (TDD) practices to ensure the script was reliable and maintainable. 
+          This approach helped me create robust unit tests, covering 96% of the codebase 
+          to ensure functionality and minimize bugs.
+          </p>
+          
+        </div>
       </article>
 
       <article class="vcs" id="vcs" data-page="vcs">
@@ -941,20 +952,36 @@
           <h2 class="h2 article-title">VCS</h2>
         </header>
         <a href="https://github.com/Eloisa12/Git-Version-Control-System" class="project-text"><u>Source Code</u></a>
-        <ul class="skills-list content-card">
-          <p class="project-text">
-            This project is a recreation of a version control system.
-            When working with large project, artists
-            constantly need to sync their work, access the latest versions, 
-            and avoid overwriting each other’s files. 
+        <div class="skills-list content-card">
+          <p>
+            In large projects, especially in creative environments, 
+            artists often face the challenge of syncing their work, 
+            accessing the latest versions of files, and ensuring they don’t accidentally
+             overwrite each other's progress. 
+             A version control system (VCS) like Git is critical in production environments 
+             to prevent these issues.
           </p>
-            <p class="project-text">
-            A VCS like git is commonly used and is a big part in production environment.
-            By coding this program, I gained a deeper understanding in how such system works,
-            and being able to build or troubleshoot it,
-            which is a valuable skill for supporting artists and ensuring the pipeline runs smoothly.
+          <p>
+            My task was to recreate a version control system to help artists manage
+             their files and collaborate more efficiently, ensuring that their work was 
+             always up to date and that no one would overwrite another’s progress.
+          </p>
+          <p>
+          I developed a version control system from scratch, 
+          following the core functionalities of Git. 
+          By building this system, I was able to gain a deeper understanding of how version control 
+          systems operate, including file tracking, version history, and synchronization. 
+          This project required me to delve into both the backend logic and 
+          the user interface to ensure it was intuitive for non-technical users.
+          </p>
+          <p>
+            As a result, the system provided artists with a reliable way to manage their work 
+            and collaborate effectively, reducing the risk of errors and ensuring smoother workflows. 
+            Additionally, I gained valuable experience in building 
+            and troubleshooting version control systems, a crucial skill for 
+            supporting artists and maintaining smooth production pipelines.
            </p>
-        </ul>
+          </div>
       </article>
 
 
