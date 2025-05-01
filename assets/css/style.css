@@ -127,7 +127,9 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+li { list-style: none;}
+
+li.circle { list-style: circle;}
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -898,6 +900,11 @@ main {
   width: 32px;
   height: 32px;
   object-fit: contain;
+  fill: white;
+}
+
+.white-fill {
+  fill: white;
 }
 
 
